@@ -1,0 +1,56 @@
+.mat-toolbar {
+  background-color: #2a2d31;
+}
+
+.main-block {
+  background-image: url("../assets/img/github-bg.svg");
+  background-color: #31343a;
+  background-repeat: no-repeat;
+  padding: 170px 0;
+  color: #FFF;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+
+  input {
+    padding: 11px;
+    border-radius: 5px;
+    width: 400px;
+    border-color: #000000;
+    font-size: 16px;
+  }
+
+  input:focus {
+  }
+  
+  input::placeholder {
+    font-size: 16px;
+    color: #999999;
+    font-weight: 200;
+  }
+
+  button {
+    margin-left: -20px;
+    background-image: linear-gradient(-180deg, #34d058, #28a745 90%);
+    color: #fff;
+    border: 2px solid black;
+    border-radius: .25em;
+    border-top-left-radius: unset;
+    border-bottom-left-radius: unset;
+    border-left: none;
+    background-color: #28a745;
+    padding: 8px 30px 14px;
+    font-size: 16px;
+    font-weight: 100;
+    cursor: pointer;
+  }
+}
+
+.font-bigger {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.font-smaller {
+  font-size: 25px;
+  font-weight: 100;
+}
+
